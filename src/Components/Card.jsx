@@ -1,9 +1,11 @@
 import React from "react";
-const Card = () => {
+const Card = ({ nombre, edad, bandaFav }) => {
   return (
-    <>
-      <h3>Hola, soy una tarjeta</h3>
-    </>
+    <div id="tarjeta">
+      <h3>Hola {nombre}</h3>
+      <h3>Tu Banda Favorita {bandaFav}</h3>
+      <h3>Te Felicita por tus {edad} años</h3>
+    </div>
   );
 };
 

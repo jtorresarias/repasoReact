@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: solid 2px red;
+}
+#tarjeta {
+  width: 200%;
+  background-color: rgb(57, 34, 190);
+  color: rgb(240, 27, 27);
+}
